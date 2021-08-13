@@ -28,7 +28,7 @@ public class Graph {
             }
         }
         int k = 0;
-        // forming the matrix
+        // making the matrix
         for (k = 0; k < nodelist.size(); k++) {
             for (i = 0; i < nodelist.size(); i++) {
                 for (j = 0; j < nodelist.size(); j++) {
