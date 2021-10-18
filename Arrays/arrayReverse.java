@@ -18,7 +18,7 @@ public class arrayReverse{
 
     public static void main(String[] args){
         int[] ar = new int[]{1,2,3,4};
-        arrayReverse.reverse(ar);       
+        reverse(ar);       
         int i;
         for(i=0;i<ar.length;i++){
             System.out.println(ar[i]);

@@ -51,7 +51,7 @@ class MaxMin{
     public static void main(String[] args) {
         int[] ar = new int[]{3,2,5,6};
         pair maxmin = new pair();
-        maxmin = MaxMin.maxmin(ar, 0, ar.length-1);
+        maxmin = maxmin(ar, 0, ar.length-1);
         System.out.println(maxmin.max);
         System.out.println(maxmin.min);
 
